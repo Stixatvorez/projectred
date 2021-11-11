@@ -81,6 +81,7 @@ n = int(input("Sisestage kuu number (1-12): "))
 
 season(n)
 #5
+
 n = int(input())
 m = int(input())
 y = int(input())
@@ -95,6 +96,9 @@ def bank(n, m, y):
                 return money()
             else:
                 return nal
+
+print (nal)
+
 
 print (nal)
 #6
@@ -117,6 +121,7 @@ def is_prime(number):
 n = int(input('Sisestage number: '))
 print(is_prime(n))
 #7
+
 import datetime
 d=int(input("Sisestage päev"))# пример - 15
 m=int(input("Sisestage kuu"))# пример - 5
@@ -127,6 +132,7 @@ try:
     print("Olemasolev kuupäev")
     print("Sellist kuupäeva pole")
 #8
+
 def str_xor(string,key):
     return "".join([chr(ord(c1) ^ ord(c2)) for (c1,c2) in zip(string,key)])
  
