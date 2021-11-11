@@ -1,4 +1,4 @@
-from module1 import *
+from modul import *
 from math import *
 from random import *
 while True:
