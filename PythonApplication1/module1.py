@@ -7,7 +7,7 @@ def arithmetic(a: float,b:float,c=str):
     :param float a: Esimene arv
     :param float b: Teine arv
     :param str c: Aritmeetiline tehing
-    :rtype float:
+    :rtype var: Märatab tüüb
     """
     if c=="+":
         r=a+b
@@ -22,7 +22,7 @@ def arithmetic(a: float,b:float,c=str):
             print("Div0")
     else:
         print("Viga!")
-    return r
+    return("")
 def is_year_leap(year:int):
     """Мы пишем для любого года, и программа определяет, является ли год получения визы Истинным или Неверным..
     """
@@ -32,15 +32,17 @@ def is_year_leap(year:int):
         print("False")
     return("")
 def square(kv:float):
-    """Записываем сторону квадрата, и программа дает нам площадь, периметр и диагональ квадрата. 
+    """Записываем сторону квадрата, и программа дает нам площадь, периметр и диагональ квадрата.
+    :param int kuu: kuu järjekordne number
+    :rtype str: hooaja nimetus
     """
     return(4*kv, kv**2, (2*kv**2)**.5)
-    return r
+    return("")
 def season(kuu:int)->str>
     """Пишем от 1 до 12 месяцев и программа определяет сезон по месяцам
     :param int kuu: kuu järjekordne number
     :rtype str: hooaja nimetus
-    """
+    
     if kuu==12 or 0<kuu<3:
         print("Зима")
     elif 0<kuu<3:
@@ -60,7 +62,7 @@ def bank(a:float,years:int):
     for _ in range(years):
         a=((1.1*1/100)*a)*100
     print("Ваш баланс:",a)
-    return rez
+    return("")
 def is_prime(a:int):
     """Мы пишем число от 0 до 1000 и возвращаем true, если это просто, и false в противном случае.
     """
