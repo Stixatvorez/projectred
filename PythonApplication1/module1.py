@@ -30,14 +30,14 @@ def is_year_leap(year:int):
         print("True")
     else:
         print("False")
-    return("")
+    return rez
 def square(kv:float):
     """Записываем сторону квадрата, и программа дает нам площадь, периметр и диагональ квадрата.
     :param int kuu: kuu järjekordne number
     :rtype str: hooaja nimetus
     """
     return(4*kv, kv**2, (2*kv**2)**.5)
-    return("")
+    return r
 def season(kuu:int)->str>
     """Пишем от 1 до 12 месяцев и программа определяет сезон по месяцам
     :param int kuu: kuu järjekordne number
