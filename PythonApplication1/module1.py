@@ -22,7 +22,7 @@ def arithmetic(a: float,b:float,c=str):
             print("Div0")
     else:
         print("Viga!")
-    return("")
+    return r
 def is_year_leap(year:int):
     """Мы пишем для любого года, и программа определяет, является ли год получения визы Истинным или Неверным..
     """
@@ -60,7 +60,7 @@ def bank(a:float,years:int):
     for _ in range(years):
         a=((1.1*1/100)*a)*100
     print("Ваш баланс:",a)
-    return("")
+    return rez
 def is_prime(a:int):
     """Мы пишем число от 0 до 1000 и возвращаем true, если это просто, и false в противном случае.
     """
